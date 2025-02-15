@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body:not(.css-dev-only-do-not-override-42nv3w) {
+    font-family: 'Questrial', 'Roboto Mono', sans-serif !important;
+}
+
+/*.ant-layout:not(.css-dev-only-do-not-override-42nv3w) {
+    font-family: 'Questrial', 'Roboto Mono', sans-serif !important;
+}*/
+
+.logo{
+    width: 150px;
+    height: 80px;
+    display: inline;
+}
+
+.ant-menu-item{
+    color: #898A96 !important;
+}
+
+.ant-menu-submenu .ant-menu-submenu-inline .ant-menu-title-content{
+    color: #898A96 !important;
+}
+
+.ant-menu-submenu-title{
+    color: #898A96 !important;
+}
+
+.ant-menu-item:hover{
+    background: #389BCE !important;
+    color: #FFFFFF !important;
+}
+
+.ant-menu-item-selected {
+    background: #389BCE !important;
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+}
+
+/*.ant-menu-title-content {
+    color: #898A96;
+}*/
+.info-card{
+    background-color: #E3EBFD;
+}
+
+.alt-info-card{
+    background-color: #EDDDFB;
+}
+
+.add-button{
+    background: #2B317D;
+
+}
+
+.export-button{
+    background: #E2DFE9;
+    color: #3F2C6E;
+
+}
+
+.ant-layout-sider-children {
+    width: inherit;
+    position: fixed;
+}
+.m-2{
+    margin-top: -1px;
+    margin-bottom: 15px;
+}
+
+  
